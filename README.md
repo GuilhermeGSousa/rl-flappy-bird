@@ -4,7 +4,7 @@ Keras implementation of a DQN agent for solving OpenAI's Flappy Bird environment
 
 # Installing things and such
 ----------------------------
-In order to install the environment, openai gym, PLE and PyGame:
+To install the environment, PLE and PyGame:
 
 ### PyGame
 
@@ -33,8 +33,16 @@ and finally in order to use PLE as an OpenAI gym environment
 pip install gym_ple
 ```
 
-# Using the agent
+### Keras
+Given that the agent is implemented using Keras, having it installed may proove useful, to do so:
+```bash
+sudo pip install keras
+```
+As a backend for Keras I highly recommend gpu-enabled tensorflow
 
+
+# Using the agent
+----------------
 To train the agent simply run
 ```bash
 python flappy_bird.py
